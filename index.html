@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<hmml lang= "en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Trivia Game</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.js"
+	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	
+</head>
+<body>
+	<div class="container">
+
+		<div class="row">
+			<h1>Trivia Game!</h1>
+		</div>
+
+		<div class="row">
+			<h2 id=correctAn></h2>
+			<h2 id="wrongAn"></h2>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-10">
+				<div class="jumbotron">
+					<div class="row">
+						<div class="col-lg-10">
+							<form name="soccerQuiz" onsubmit="return submitAnswers()">
+							<p>1. Which nation has won the most World Cups?</p>
+								<input type="radio" name="Q1" value="a" id="Q1a"><span>Mexico</span>
+								<input type="radio" name="Q1" value="b" id="Q1a"><span>Germany</span>
+								<input type="radio" name="Q1" value="c" id="Q1a"><span>Brazil</span>
+								<input type="radio" name="Q1" value="d" id="Q1a"><span>Spain</span>
+							<p>2. Which soccer club has won the most Champions League titles?</p>
+								<input type="radio" name="Q2" value="a" id="Q2a"><span>Real Madrid</span>
+								<input type="radio" name="Q2" value="b" id="Q2a"><span>Manchester United</span>
+								<input type="radio" name="Q2" value="c" id="Q2a"><span>Juventus</span>
+								<input type="radio" name="Q2" value="d" id="Q2a"><span>Barcelona</span>
+							<p>3. Who is currently the most expensive transfer for a footballer</p>
+								<input type="radio" name="Q3" value="a" id="Q3a"><span>Paul Pogba</span>
+								<input type="radio" name="Q3" value="b" id="Q3a"><span>Lionel Messi</span>
+								<input type="radio" name="Q3" value="c" id="Q3a"><span>Cristiano Ronaldo</span>
+								<input type="radio" name="Q3" value="d" id="Q3a"><span>Wayne Rooney</span>
+							<p>4. Which footballer has won the most Balon d'Or?</p>
+								<input type="radio" name="Q4" value="a" id="Q4a"><span>Lionel Messi</span>
+								<input type="radio" name="Q4" value="b" id="Q4a"><span>Cristiano Ronaldo</span>
+								<input type="radio" name="Q4" value="c" id="Q4a"><span>Ronaldinho</span>
+								<input type="radio" name="Q4" value="d" id="Q4a"><span>Ronaldo</span>
+							<p>5. According to Forbes, which football club has the highest value?</p>
+								<input type="radio" name="Q5" value="a" id="Q5a"><span>Liverpool</span>
+								<input type="radio" name="Q5" value="b" id="Q5a"><span>Barcelona</span>
+								<input type="radio" name="Q5" value="c" id="Q5a"><span>Real Madrid</span>
+								<input type="radio" name="Q5" value="d" id="Q5a"><span>Manchester United</span>
+							<br>
+							<br>
+							<input type="submit" value="Submit">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Timer</h3>
+				  </div>
+				  <div class="panel-body">
+				    
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
