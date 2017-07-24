@@ -1,5 +1,5 @@
 console.log("link");
-$("#correctAn").text("too cool for school");
+
 // $("document").ready(function(){
 	function submitAnswers(){
 		var correct = 0;
@@ -25,7 +25,7 @@ $("#correctAn").text("too cool for school");
 			console.log(correct);
 			}
 			else{
-				eval("ques"+j)!= correctAns[j-1]{
+				eval("ques"+j)!= correctAns[j-1];
 					wrong = 0;
 					console.log(wrong);
 				}
@@ -34,13 +34,13 @@ $("#correctAn").text("too cool for school");
 		//gives back the number answers right
 			// var correct1 = document.getElementById("correctAn");
 			// correct1.innerText("You got" + correct +"answers correct!");
-		// $("#correctAn").text("You got"+correct+"answers correct!");
+		$("#correctAn").text(correct);
 		// return false;
-		
+
 		//give back number of wrong answers
 			// var wrong1 = document.getElementById("wrongAn");
 			// wrong1.innerText("You got" + wrong +"answers wrong!");
-			//$("#wrongAn").text("You got " +correct+"answers wrong!");
+			$("#wrongAn").text(wrong);
 
 	//set the timer to count down 3 minutes
 		//setTimeout(1000*180){
@@ -62,5 +62,5 @@ $("#correctAn").text("too cool for school");
 			//$("#wrongAn").text("You got " +correct+"answers wrong!");
 			//}
 	// submitAnswers();
-		}
+		//}
 // });
