@@ -1,9 +1,9 @@
 console.log("link");
-
+var correct = 0;
+var wrong =0;
 // $("document").ready(function(){
 	function submitAnswers(){
-		var correct = 0;
-		var wrong =0;
+		
 
 		var ques1= document.forms.soccerQuiz.Q1.value;
 		var ques2= document.forms.soccerQuiz.Q2.value;
@@ -24,9 +24,7 @@ console.log("link");
 				correct++;
 			console.log(correct);
 			}
-			else{
-				eval("ques"+j)!= correctAns[j-1];
-					wrong = 0;
+			else{	wrong++;
 					console.log(wrong);
 				}
 			}
